@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="RegisterForm.js"></script>
+    <link rel="stylesheet" href="RegisterForm.css">
+    <title>Movies Website</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><a href="">
+            <img src="img/movierex.png">
+            </a>
+        </div>
+        <div class="row justify-content-around ">
+            <form class="col-md-4 py-3" id="login-form" onsubmit=" return validateForm()">
+                <h1 class="text-center text-uppercase pt-3">Đăng ký</h1>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="username" id="username" placeholder="Tên đăng nhập">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Địa chỉ email">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="number" name="number" id="number" placeholder="Số điện thoại">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="password" id="password" placeholder="Mật khẩu">
+                </div>
+                <div class="checkbox" id="checkbox">
+                    <label>Chọn giới tính</label>
+                    <div class="form-check ">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Nam</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="gender" id="female">
+                       <label for="female">Nữ</label>
+                    </div>
+                </div>
+                <input type="submit" name="submit" id="submit" value="Gửi">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
