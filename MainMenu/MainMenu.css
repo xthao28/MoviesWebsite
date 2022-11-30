@@ -7,7 +7,7 @@
 body {
     color: white;
     font-family: 'Nunito', sans-serif !important;
-    background: rgb(32, 32, 32);
+    background: black;
 }
 
 /* Navigation */
@@ -44,7 +44,17 @@ nav {
 #but-me {
     align-items: center;
 }
-
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+    border-radius: 5px;
+}
+.dropdown-item:hover{
+    color: #141414;
+    background-color: white;
+}
 /* Carousel */
 .carousel-inner img {
     width: 100%;
@@ -62,7 +72,8 @@ button.carousel-control-next {
     max-width: 5px;
 }
 #next {
-    margin-right: -120px;
+    position: absolute;
+    margin-right: 30px;
 }
 
 .carrousel-item img *{
@@ -70,54 +81,59 @@ button.carousel-control-next {
 }
 
 /* Black Adam  */
-#BA{
+#XT{
     text-shadow: 5px 5px 15px black;
 }
-#BlackAdam {
+#Logo {
+    margin-left: -150px;
     margin-top: 50px;
     font-weight: 900;
     font-size: 20px;
 }
-#BlackAdam img {
+#Logo img {
     max-width: 5%;
 }
-#BA h1 {
+#XT h1 {
+    margin-left: -150px;
     margin-top: 25px;
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 900;
 }
-#BA-rate {
+#XT-rate {
+    margin-left: -150px;
     color: rgb(255, 255, 0);
 }
-#BA-rate span {
+#XT-rate span {
     color: white;
 }
-#BA-intro {
+#XT-intro {
     margin-top: -500px;
 }
-#BA-intro *{
+#XT-intro *{
     text-align: left;
 }
-#BA-p {
+#XT-p {
+    margin-left: -150px;
     margin-top: 20px;
     font-size: 20px;
 }
-#BAPlay {
+#XTPlay {
+    margin-left: -150px;
     font-size: 16px;
     font-weight: 600;
 }
-#BAPlay:hover {
+#XTPlay:hover {
     background: red;
     color: white;
     border: 1px solid red;
 }
-#baplay {
+#XTplay {
     font-size: 25px;
     margin-top: -6px;
     margin-bottom: -6px;
 }
-#BAInfo {
+#XTInfo {
     background: rgb(89, 89, 89);
     color: white;
     font-size: 16px;
@@ -126,368 +142,69 @@ button.carousel-control-next {
     padding-left: 25px;
     padding-right: 25px;
 }
-#BAInfo:hover {
+#XTInfo:hover {
     background:rgb(59, 59, 59);
 }
-#bainfo {
+#XTinfo {
     font-size: 25px;
     margin-top: -5px;
     margin-bottom: -8px;
 }
 
-
-/* Emily the criminal */
-#Em{
-    text-shadow: 5px 5px 15px black;
-
-}
-#Emily {
-    margin-top: 50px;
-    font-weight: 900;
-    font-size: 20px;
-}
-#Emily img {
-    max-width: 5%;
-}
-#Em h1 {
-    margin-top: 25px;
-    font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-#E-rate {
-    color: rgb(255, 255, 0);
-}
-#E-rate span {
-    color: white;
-}
-#E-intro {
-    margin-top: -500px;
-}
-#E-intro *{
-    text-align: left;
-}
-#E-p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-#EPlay {
-    font-size: 16px;
-    font-weight: 600;
-}
-#EPlay:hover {
-    background: red ;
-    color: white;
-    border: 1px solid red;
-}
-#eplay {
-    font-size: 25px;
-    margin-top: -6px;
-    margin-bottom: -6px;
-}
-#EInfo {
-    background: rgb(89, 89, 89);
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-#EInfo:hover {
-    background:rgb(59, 59, 59);
-}
-#einfo {
-    font-size: 25px;
-    margin-top: -5px;
-    margin-bottom: -8px;
-}
-
-
-/* Fall */
-#F{
-    text-shadow: 5px 5px 15px black;
-
-}
-#Fall {
-    margin-top: 50px;
-    font-weight: 900;
-    font-size: 20px;
-}
-#Fall img {
-    max-width: 5%;
-}
-#F h1 {
-    margin-top: 25px;
-    font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-#F-rate {
-    color: rgb(255, 255, 0);
-}
-#F-rate span {
-    color: white;
-}
-#F-intro {
-    margin-top: -500px;
-}
-#F-intro *{
-    text-align: left;
-}
-#F-p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-#FPlay {
-    font-size: 16px;
-    font-weight: 600;
-}
-#FPlay:hover {
-    background: red;
-    color: white;
-    border: 1px solid red;
-}
-#fplay {
-    font-size: 25px;
-    margin-top: -6px;
-    margin-bottom: -6px;
-}
-#FInfo {
-    background: rgb(89, 89, 89);
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-#FInfo:hover {
-    background:rgb(59, 59, 59);
-}
-#finfo {
-    font-size: 25px;
-    margin-top: -5px;
-    margin-bottom: -8px;
-}
-
-
-/* Jeepers Creepers */
-#JC{
-    text-shadow: 5px 5px 15px black;
-
-}
-#JeeperCreeper {
-    margin-top: 50px;
-    font-weight: 900;
-    font-size: 20px;
-}
-#JeeperCreeper img {
-    max-width: 5%;
-}
-#JC h1 {
-    margin-top: 25px;
-    font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-#JC-rate {
-    color: rgb(255, 255, 0);
-}
-#JC-rate span {
-    color: white;
-}
-#JC-intro {
-    margin-top: -500px;
-}
-#JC-intro *{
-    text-align: left;
-}
-#JC-p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-#JCPlay {
-    font-size: 16px;
-    font-weight: 600;
-}
-#JCPlay:hover {
-    background: red;
-    color: white;
-    border: 1px solid red;
-}
-#jcplay {
-    font-size: 25px;
-    margin-top: -6px;
-    margin-bottom: -6px;
-}
-#JCInfo {
-    background: rgb(89, 89, 89);
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-#JCInfo:hover {
-    background:rgb(59, 59, 59);
-}
-#jcinfo {
-    font-size: 25px;
-    margin-top: -5px;
-    margin-bottom: -8px;
-}
-
-
-/* Lost Bullet */
-#LB{
-    text-shadow: 5px 5px 15px black;
-
-}
-#LostBullet {
-    margin-top: 50px;
-    font-weight: 900;
-    font-size: 20px;
-}
-#LostBullet img {
-    max-width: 5%;
-}
-#LB h1 {
-    margin-top: 25px;
-    font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-#LB-rate {
-    color: rgb(255, 255, 0);
-}
-#LB-rate span {
-    color: white;
-}
-#LB-intro {
-    margin-top: -500px;
-}
-#LB-intro *{
-    text-align: left;
-}
-#LB-p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-#LBPlay {
-    font-size: 16px;
-    font-weight: 600;
-}
-#LBPlay:hover {
-    background: red;
-    color: white;
-    border: 1px solid red;
-}
-#lbplay {
-    font-size: 25px;
-    margin-top: -6px;
-    margin-bottom: -6px;
-}
-#LBInfo {
-    background: rgb(89, 89, 89);
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-#LBInfo:hover {
-    background:rgb(59, 59, 59);
-}
-#lbinfo {
-    font-size: 25px;
-    margin-top: -5px;
-    margin-bottom: -8px;
-}
-
-
-/* Black Panther: Wakanda Forever */
-#BP{
-    text-shadow: 5px 5px 15px black;
-
-}
-#BlackPanther {
-    margin-top: 50px;
-    font-weight: 900;
-    font-size: 20px;
-}
-#BlackPanther img {
-    max-width: 5%;
-}
-#BP h1 {
-    margin-top: 25px;
-    font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-#BP-rate {
-    color: rgb(255, 255, 0);
-}
-#BP-rate span {
-    color: white;
-}
-#BP-intro {
-    margin-top: -500px;
-}
-#BP-intro *{
-    text-align: left;
-}
-#BP-p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-#BPPlay {
-    font-size: 16px;
-    font-weight: 600;
-}
-#BPPlay:hover {
-    background: red;
-    color: white;
-    border: 1px solid red;
-}
-#bpplay {
-    font-size: 25px;
-    margin-top: -6px;
-    margin-bottom: -6px;
-}
-#BPInfo {
-    background: rgb(89, 89, 89);
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-#BPInfo:hover {
-    background:rgb(59, 59, 59);
-}
-#bpinfo {
-    font-size: 25px;
-    margin-top: -5px;
-    margin-bottom: -8px;
-}
 
 
 /* Film Lists */
+.icon{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+}
+.icon-l{
+    margin-left: -100px;
+}
+.icon-r{
+    margin-right: 10px;
+}
+#ionicon{
+    color: rgb(177, 180, 184);
+    font-size: 45px;
+}
+#ionicon:hover {
+    color: white
+}
+.demo{
+    display: flex;
+    float: left;
+    background-color: #141414;
+    width: 100%;
+}
+.demo .status{
+    color: #46d369;
+    white-space: unset;
+    margin: 0px 15px 0px 15px;
+}
+.demo .age{
+    border: 1px solid rgb(141, 144, 146);
+    font-size: 16px;
+}
+.demo .series{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.title{
+    font-size: 18px;
+    margin-left: 15px;
+}
 .trending-movies {
     margin: 40px 0 0 60px;
     font-size: 20px;
 }
 .trend-heading {
-    border-bottom: 2px solid rgba(255, 0, 0, 0.612);
     margin-bottom: 20px;
     font-weight: 900;
 }
 #arrow {
-    color: aqua;
+    color: white;
     font-size: 25px;
     margin-top: -5px;
     margin-bottom: -7px;
@@ -517,7 +234,7 @@ button.carousel-control-next {
     transition: 0.5s;
 }
 .swiper-slide:hover #trans .movie-pre {
-    transform: translateY(120px);
+    transform: translateY(110px);
 }
 .swiper {
     width: 100%;
@@ -526,19 +243,11 @@ button.carousel-control-next {
 }
 .swiper-content{
     max-height: 300px;
-    background: white;
-    text-align: center;
+    background-color: #141414;
     box-sizing: border-box;
-    opacity: 0.5;
-    transform: translateY(-142px);
+    transform: translateY(-140px);
 }
-.swiper-content:hover {
-    opacity: 1;
-}
-.swiper-content a button{
-    font-size: 14px;
-    margin: -15px 0 8px;
-}
+
 #title {
     background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%);
     font-size: 18px;
@@ -553,13 +262,12 @@ button.carousel-control-next {
     padding-top: 8px;
     font-weight: 600;
     font-size: 14px;
-    color: black;
+    color: white;
 }
 #ReadMore {
     font-weight: 600;
     padding: 4px 8px;
-    border: black;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 
