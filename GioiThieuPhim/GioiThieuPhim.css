@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.background{
+    background-color: black;
+}
+/* Navigation */
+nav {
+    background: black;
+}
+#logo, #menu {
+    float: left;
+}
+#menu{
+    padding-top: 15px;
+}
+#logo {
+    margin-left: 30px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+#menu {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.nav-item *{
+    margin-left: 50px;
+    color: rgb(89, 89, 89);
+    font-size: 20px;
+}
+.nav-item:hover *{
+    color: white;
+}
+#dropdown {
+    float: right;
+    margin-top: 8px;
+}
+#canva {
+    background: black;
+}
+#menu-button {
+    float: right;
+}
+#but-me {
+    align-items: center;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+    border-radius: 5px;
+}
+.dropdown-item:hover{
+    color: #141414;
+    background-color: white;
+}
+
+/* .logo{ */
+    /* position: absolute; */
+    /* margin-top: -30px; */
+    /* margin-left: 2%; */
+    /* font-style: italic; */
+/* } */
+.continue a{
+    position: relative;
+    float: left;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    margin-top: 700px;
+    margin-left: 7%;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 20px 5px 15px;
+    border-radius: 5px;
+}
+.add{
+    position: relative;
+    padding-top: 710px;
+    margin-left: 320px;
+    color: white;
+}
+.like a{
+    position: relative;
+    margin-left: 25px;
+    color: white;
+    float: left;
+}
+#rowon{
+    color: white;
+    margin-top: 300px;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+#rowdown{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.grid-container{
+    display: grid;
+    /* column-gap: 10px; */
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;   
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.grid-item{
+    border-radius: 10px;  
+}
+.footer{
+    height: 50%;
+}
+.app{
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.footer1{
+    margin-right: 3%;
+    color: white;
+}
+#footer2 div a{
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+}
+#footer2{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}

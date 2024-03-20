@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    background: black;
+    /* linear-gradient( */
+        /* rgba(0, 0, 0, 0.5), */
+        /* rgba(0, 0, 0, 0.5) */
+    /* ), */
+    /* url(https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/39c8d004-e406-410f-a3b7-2f0a314307ef/VN-vi-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+}
+.tren1{
+    float: left;
+    margin-top: -35px;
+    margin-left: 0%;
+    border: 50px;
+    font-size: 50px;
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nen{
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.5) 100%);
+    color: white;
+    font-size: 20px;
+}
+/* Navigation */
+nav {
+    background: black;
+}
+#logo, #menu {
+    float: left;
+}
+#menu{
+    padding-top: 15px;
+}
+#logo {
+    margin-left: 30px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+#menu {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.nav-item *{
+    margin-left: 50px;
+    color: rgb(89, 89, 89);
+    font-size: 20px;
+}
+.nav-item:hover *{
+    color: white;
+}
+#dropdown {
+    float: right;
+    margin-top: 8px;
+}
+#canva {
+    background: black;
+}
+#menu-button {
+    float: right;
+}
+#but-me {
+    align-items: center;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+    border-radius: 5px;
+}
+.dropdown-item:hover{
+    color: #141414;
+    background-color: white;
+}
+#Introduction{
+    font-size: 30px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.face{
+    color: white;
+}
+/* .footer{ */
+    /* height: 50%; */
+/* } */
+.menu{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+.nav-item{
+    margin-top: 4%;
+    margin-right: 0%;
+    margin-left: 15px;
+    float: left;
+    list-style: none;
+}
+.footer{
+    height: 50%;
+}
+.app{
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.footer1{
+    margin-right: 3%;
+    color: white;
+}
+#footer2 div a{
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+}
+#footer2{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/39c8d004-e406-410f-a3b7-2f0a314307ef/VN-vi-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.tren{
+    margin-top: -5px;
+    margin-left: 2%;
+    border: 50px;
+    font-size: 50px;
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+.form{
+    font-family: 'Nunito', sans-serif;
+    margin-top: -50px;
+    padding: 60px 80px 40px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.5) 100%);
+    border: 0px solid black;
+    margin-left: 35%;
+    margin-right: 65%;
+    min-height: 660px;
+    min-width: 450px;
+    display: flex;
+}
+.nhap{
+    height: 50px;
+    width: 300px;
+    border-radius: 7px;
+    background: rgb(72, 72, 72);
+    font-size: 20px;
+    color: black;
+    size: 50px;
+}
+.dangnhap{
+    font-family: 'Nunito', sans-serif;
+    background-color: red;
+    color: white;
+    margin-top: 40px;
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 20px;
+    width: 300px;
+    height: 45px;
+}
+.mk{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(72, 72, 72);
+    font-size: 18px;
+    margin-left: -120px;
+}
+.dangkyngay{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 80px;
+}
+
